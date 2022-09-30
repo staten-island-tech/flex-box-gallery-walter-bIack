@@ -1,64 +1,81 @@
-/* using . allows you to call on a class in css */
+/* ======================================
+Responsive Image gallery Style rules
+======================================*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: greenyellow;
-}
-.head {
-  font-size: 4rem; /* sets background color around the .head text */
-  text-align: center; /* places text in the center of its parent element */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.beach {
-  font-family: cursive;
-  background-color: lightseagreen;
-  height: 7vh; /* sets the height of the element (vh operates in relation to the screen's height */
-  display: block;
-  margin: 50px auto;
-  width: 12vw; /* sets the width of the element (vw operates in relation to the screen's width */
-  padding: 10px 8px 6px 6px;
-  font-size: 3rem;
-  border-radius: 20px;
-  text-align: center;
-  /* creates a colored border around the element */
+.container {
+  padding: 40px 5%;
 }
 
-.beta {
-  background-color: lightskyblue;
-  height: 4vh; /* sets the height of the element (vh operates in relation to the screen's height */
+.heading-text {
+  margin-bottom: 2rem;
   font-size: 2rem;
-  display: block;
-  margin: 5px auto;
-  width: 15vw; /* sets the width of the element (vw operates in relation to the screen's width */
-  padding: 15px 8px 6px 6px; /* adds padding to the inside of an element in the order of top, right, bottom, and left. padding is the distance of an element to its border. */
-  text-align: center;
-  border-radius: 20px;
-}
-.alpha {
-  font-family: sans-serif;
-  height: 4vh; /* sets the height of the element (vh operates in relation to the screen's height */
-  font-size: 2rem;
-  margin: 5px auto;
   text-align: center;
 }
 
-/*using # allows you to call on an id in css */
-#beta {
-  width: 75vw;
-  margin: 50px 8px 6px 20px; /* sets the margin around an element in the order of top, right, bottom, left. margin is the distance between an element and the elements around it.*/
-  color: white; /* sets the color of the element, in this case it's the font size */
-  text-align: right; /* places text on the right side of an element */
-  font-size: 5vh; /* changes font size */
+.heading-text span {
+  font-weight: 100;
 }
 
-.meme {
-  margin: 5px auto;
-  height: 300px;
-  display: block;
+ul {
+  list-style: none;
 }
-.outline {
-  background-color: lightblue;
-  display: block;
-  margin: 15px auto;
-  width: 30vw; /* sets the width of the element (vw operates in relation to the screen's width */
-  padding: 15px 8px 6px 6px; /* adds padding to the inside of an element in the order of top, right, bottom, and left. padding is the distance of an element to its border. */
-  border-radius: 20px;
+
+/* Responsive image gallery rules begin*/
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery > li {
+  flex-basis: 450px; /*width: 350px;*/
+  position: relative;
+  cursor: pointer;
+}
+
+.image-gallery::after {
+  content: "";
+  flex-basis: 350px;
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(57, 57, 57, 0.502);
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.2s 0.1s ease-in-out;
+  color: #fff;
+  border-radius: 5px;
+  /* center overlay text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hover */
+.image-gallery li:hover .overlay {
+  transform: scale(1);
 }
