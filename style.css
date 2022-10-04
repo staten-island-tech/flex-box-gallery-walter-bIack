@@ -90,19 +90,19 @@ ul {
 .button-1{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
+  border-radius: 8px;
   float:left;
   text-align:center;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 0;
 }
 .button-1 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -114,7 +114,7 @@ ul {
   height:50px;
   top:-2px;
   right:-140px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -129,22 +129,23 @@ ul {
 .button-2{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
   text-align:center;
+  border-radius: 8px;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-2 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
+  border-radius: 8px;
   z-index:2;
   position:relative;
 }
@@ -152,7 +153,7 @@ ul {
   width:140px;
   height:50px;
   top:-50px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -167,21 +168,22 @@ ul {
 .button-3{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
+  border-radius: 8px;
   text-align:center;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-3 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
+  border-radius: 8px;
   transition:all .5s ease;
   z-index:2;
   position:relative;
@@ -190,7 +192,7 @@ ul {
   width:140px;
   height:50px;
   bottom:-50px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -204,21 +206,22 @@ ul {
 .button-4{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
   text-align:center;
+  border-radius: 8px;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-4 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
+  border-radius: 8px;
   transition:all .5s ease;
   z-index:2;
   position:relative;
@@ -227,7 +230,7 @@ ul {
   width:140px;
   height:50px;
   left:-140px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -242,19 +245,19 @@ ul {
 .button-5{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
+  border-radius: 8px;
   text-align:center;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 0;
 }
 .button-5 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -266,7 +269,7 @@ ul {
   height:50px;
   left:-140px;
   top:-50px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -280,19 +283,19 @@ ul {
 .button-6{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
   text-align:center;
+  border-radius: 8px;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-6 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -304,7 +307,7 @@ ul {
   height:50px;
   right:-140px;
   bottom:-50px;
-  background:#34495e;
+  background:#39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
@@ -319,19 +322,19 @@ ul {
 .button-7{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
   text-align:center;
+  border-radius: 8px;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-7 a{
   font-family:arial;
   font-size:16px;
-  color:#34495e;
+  color:#39424b;
   text-decoration:none;
   line-height:50px;
   transition:all .5s ease;
@@ -341,14 +344,14 @@ ul {
 .eff-7{
   width:140px;
   height:50px;
-  border:0px solid #34495e;
+  border:0px solid #39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
 .button-7:hover .eff-7{
-  border:70px solid #34495e;
+  border:70px solid #39424b;
 }
 .button-7:hover a{
   color:#fff;
@@ -357,14 +360,14 @@ ul {
 .button-8{
   width:140px;
   height:50px;
-  border:2px solid #34495e;
+  border:2px solid rgb(90, 89, 89);
   float:left;
   text-align:center;
+  border-radius: 8px;
   cursor:pointer;
   position:relative;
   box-sizing:border-box;
   overflow:hidden;
-  margin:0 0 40px 50px;
 }
 .button-8 a{
   font-family:arial;
@@ -379,15 +382,15 @@ ul {
 .eff-8{
   width:140px;
   height:50px;
-  border:70px solid #34495e;
+  border:70px solid #39424b;
   position:absolute;
   transition:all .5s ease;
   z-index:1;
   box-sizing:border-box;
 }
 .button-8:hover .eff-8{
-  border:0px solid #34495e;
+  border:0px solid #39424b;
 }
 .button-8:hover a{
-  color:#34495e;
+  color:#39424b;
 }
