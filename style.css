@@ -39,6 +39,15 @@ ul {
   gap: 25px;
 }
 
+@media  screen  and (max-width: 900px) {
+  .menu-container {
+    flex-direction: row;
+  }
+  .menu-card {
+    width:45%
+  }
+}
+
 .image-gallery > li {
   flex-basis: 450px; /*width: 350px;*/
   position: relative;
